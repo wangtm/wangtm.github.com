@@ -4,7 +4,7 @@ layout : post
 
 category : manage
 
-tags : [python 平板文件]
+tags : [python chainese 平板文件]
 
 title : Python学习笔记之中文注释
 
