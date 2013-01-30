@@ -9,14 +9,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : charisma在线
+title : 谱梦工作室
 tagline: Site Tagline
 author :
-  name : charisma在线
-  email : wangtangming888@gamil.com
-  github : https://github.com/wangtm/
-  twitter : 
-  feedburner : 
+  name : Micheal Zhou
+  email : 541430660@qq.com
+  github : https://github.com/bigdreamstudio/
+  twitter : username
+  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://wangtm.github.com
+production_url : http://bigdreamstudio.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : wangtmblogbygithub
+      short_name : bigdreamstudioblogbygithub
     livefyre :
       site_id : 123
     intensedebate :
