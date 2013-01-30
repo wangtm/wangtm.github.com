@@ -12,7 +12,7 @@ title : 创建并修改excel
 
 # 创建并修改excel
 
-     import xlrd filename="D:/test.xls" 
+import xlrd filename="D:/test.xls" 
 data=xlrd.open_workbook(filename) 
 sheet=data.sheet_by_index(0)
  rows=sheet.nrows 
