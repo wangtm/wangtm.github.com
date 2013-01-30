@@ -6,17 +6,39 @@ category : manage
 
 tags : [python 平板文件]
 
-title : Python学习笔记之中文注释
+title : 创建并修改excel
 
 ---
 
-# Python学习笔记之中文注释
+# 创建并修改excel
 
-    新手在刚开始写python的时候，都会碰到中文乱码问题
-    通常，python源代码必须完全由ASCII集合组成，如果直接在python中添加中文注释的时候，python执行时会引发异常，告知非ASCII字符语法错误。  
-    错误如下： SyntaxError: Non-ASCII character '/xd5' in file D:/Project/python/sort/quick_sort.py on line 9, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details  
-     这个时候的解决方法，就是在告知python使用的编码方式，告知方法是在源文件的初始部分，也就是顶行加上这样一行注释，必须是这一行，否则不起作用！  
-     必须在开头要加上这一行 # -*- coding: utf-8 -*
-
-
-    这行注释的格式必须与这个保持严格一致，在coding和-*-之间，输入python已知的字符编码方式，比如utf-8或iso-8859-1.  
+     import xlrd filename="D:/test.xls" 
+data=xlrd.open_workbook(filename) 
+sheet=data.sheet_by_index(0)
+ rows=sheet.nrows 
+cols=sheet.ncols for row in range(rows):     
+value=sheet.row_values(row) 	
+print value import time time.sleep(20)  
+    #创建excel，并随机输入数据
+ import xlwt import xlrd
+ import random
+ filename=xlwt.Workbook() 
+sheet=filename.add_sheet("my_sheet") 
+for row in range(0,10):     
+for col in range(0,10):         
+sheet.write(row,col,random.randrange(0,10)) filename.save("D:/test.xls") print "Done"  
+    #判断每行的和，若>=40,则为“ok"，否则为”no“  
+from xlrd import open_workbook 
+from xlutils.copy import copy 
+rb=open_workbook("D:test.xls") 
+sheet=rb.sheet_by_index(0) 
+rows=sheet.nrows 
+cols=sheet.ncols 
+wb=copy(rb) 
+ws=wb.get_sheet(0) 
+for row in range(rows): 	
+value=sheet.row_values(row) 	
+if sum(value)>=40: 		
+ws.write(row,10,"ok") 	
+else: 		
+ws.write(row,10,"no") wb.save("D:/test.xls")
