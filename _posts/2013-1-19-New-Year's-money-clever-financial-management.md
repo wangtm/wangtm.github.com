@@ -4,7 +4,7 @@ layout : post
 
 category : manage
 
-tags : [python   python  基础入门知识]
+tags : [压岁钱巧理财   基金定投  全家规划配置保险  理财 ]
 
 title : 压岁钱巧理财：基金定投+全家规划配置保险
 
