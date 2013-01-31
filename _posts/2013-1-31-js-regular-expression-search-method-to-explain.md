@@ -4,7 +4,7 @@ layout : post
 
 category : manage
 
-tags : [js 正则表达式 search方法]
+tags : [js， 正则表达式， search方法]
 
 title : js正则表达式之search方法讲解
 
