@@ -12,7 +12,7 @@ title : 十个实用的WordPress安全技巧
 
 
 
-  #  十个实用的WordPress安全技巧
+# 十个实用的WordPress安全技巧
 
     8. 删除你的 WordPress版本号 
         问题 大家都知道，WordPress会自动在你的博客文件的头部显示版本号。如果你的博客一直都是最新版的话问题不大。但是如果由于某些原因你的WordPress版本并没有更新，却仍然显示出来的话，就会被黑客利用。 解决方法 在主题的functions.php文件里粘贴下面的代码，保存，然后刷新你的博客，这样你的WordPress版本号就不会出现了。 remove_action(‘wp_head’, ‘wp_generator’); 代码解释 要执行某个行动时， WordPress是用“hook”机制，也就是说可以让你将一个函数hook到 另一个函数里。显示WordPress版本号的 wp_generator函数被hook了。我们可以移除这 个 hook并通过使用 remove_action() 函数来阻止其执行。 
