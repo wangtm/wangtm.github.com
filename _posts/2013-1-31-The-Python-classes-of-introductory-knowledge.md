@@ -9,6 +9,7 @@ tags : [python   python  平板文件]
 title : Python类的基础入门知识
 
 ---
+
 # Python类的基础入门知识
 
 关于类的定义
