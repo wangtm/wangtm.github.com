@@ -12,6 +12,8 @@ title : js正则表达式之search方法讲解
 
 # js正则表达式之search方法讲解
 
+
+代码如下:
  <html> 
 <script language="javascript" type="text/javascript"> 
 //search 方法指明是否存在相应的匹配。如果找到一个匹配，search 方法将返回一个整数值，指明这个匹配距离字符串开始的偏移位置。如果没有找到匹配，则返回 -1 
@@ -38,7 +40,7 @@ document.write(arr[0]);//输出匹配的内容
 语法：stringObj.search(rgExp) stringObj 必选项 rgExp正则表达式 
 
 返回值：search 方法指明是否存在相应的匹配。如果找到一个匹配，search方法将返回一个整数值，指明这个匹配距离字符串开始的偏移位置。如果没有找到匹配，则返回 
-  代码如下:
+
   
   
   
