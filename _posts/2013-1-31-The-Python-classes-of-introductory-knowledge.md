@@ -4,7 +4,7 @@ layout : post
 
 category : manage
 
-tags : [python   python  平板文件]
+tags : [python   python  基础入门知识]
 
 title : Python类的基础入门知识
 
