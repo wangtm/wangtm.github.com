@@ -9,9 +9,10 @@ tags : [thinkphp  Ajax表单提交 ]
 title : thinkphp中Ajax表单提交
 
 ---
-
+  <pre>
 Ajax表单提交
   默认的操作需要获取数据列表
+  
       public function index() {
         $Form = M("Form");
         // 按照id排序显示前5条记录
@@ -47,3 +48,5 @@ Ajax表单提交
             $this->error($Form->getError());
         }
     }
+	
+	 </pre>
