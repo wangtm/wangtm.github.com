@@ -11,7 +11,8 @@ title : wiki建目录之化学分类
 ---
 
 
-<pre>
+
+
 <br clear=all>
 {| align="center" id="toc" cellspacing="0"
 |- bgcolor="#ccccff"
@@ -28,4 +29,4 @@ title : wiki建目录之化学分类
 |}
 {{在线生成哈哈}}
 
-</pre>
+
