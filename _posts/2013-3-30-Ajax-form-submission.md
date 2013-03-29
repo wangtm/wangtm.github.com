@@ -9,8 +9,9 @@ tags : [thinkphp  Ajax表单提交 ]
 title : thinkphp中Ajax表单提交
 
 ---
-  <pre>
+
 Ajax表单提交
+
   默认的操作需要获取数据列表
   
       public function index() {
@@ -20,7 +21,9 @@ Ajax表单提交
         $this->list =   $list;
         $this->display();
     }
+	
    检测标题的Ajax响应操作是checkTitle操作方法：
+   
       public function checkTitle($title='') {
         if (!empty($title)) {
             $Form = M("Form");
@@ -33,7 +36,9 @@ Ajax表单提交
             $this->error('标题必须');
         }
     }
+	
 	处理表单请求数据的方法稍作改进，采用AjaxReturn方法返回JSON数据到浏览器
+	
 	    public function insert() {
         $Form = D("Form");
         if ($vo = $Form->create()) {
@@ -49,4 +54,3 @@ Ajax表单提交
         }
     }
 	
-	 </pre>
