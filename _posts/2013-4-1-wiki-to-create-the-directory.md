@@ -24,30 +24,31 @@ h1. 内容列表演示
 
 <pre>{{toc}}演示例子</pre>  
  
-{{>toc}} 
+ {{>toc}} 
    
- h2. 第一章 
-    h3. 第1节
-    h3. 第2节
-    h3. 第3节  
-    h3. 第4节  
-    h3. 第5节 
- h2. 第二章 
-    h3. 第1节 
-   h3. 第2节  
-   h3. 第3节 
- h2. 第三章 
-   h3. 第1节  
-  h3. 第2节
+h2. 第一章 
+h3. 第1节
+h3. 第2节
+h3. 第3节  
+h3. 第4节  
+h3. 第5节 
+h2. 第二章 
+h3. 第1节 
+h3. 第2节  
+h3. 第3节 
+h2. 第三章 
+h3. 第1节  
+h3. 第2节
   
-        第二种：可以创建类似面包屑的导航
-              {{Catnav|XXXXX|XXXCCC|DDDD}}
-              {{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}
-			  
-        还有很多创建导航的方法！有兴趣的进http://www.wikilib.com/wiki/%E9%A6%96%E9%A1%B5网址里查看
+第二种：可以创建类似面包屑的导航
 		
-    第一种方法要想做成浮动的目录需要导入下面GeaseMonkey.js脚本，下面是js脚本：
-    // ==UserScript== // @name            
+{{Catnav|XXXXX|XXXCCC|DDDD}}
+{{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}
+			  
+        
+		
+第一种方法要想做成浮动的目录需要导入下面GeaseMonkey.js脚本，下面是js脚本：
+// ==UserScript== // @name            
 MediaWiki TOC Floatable
  // @description    key "m" and "Ctrl+Left mouse" to show ,“ESC” to Hide 
 // @source         http://userscripts.org/scripts/show/50864 
@@ -129,3 +130,6 @@ Toc.setAttribute('style', 'top:' + TOCY + 'px;left:' + TOCX + 'px;position:absol
  false);  
    Toc.addEventListener('mouseout', function(e){window.IsMouseOverToc = false;}, false);   
   return Toc;  }
+
+  
+还有很多创建导航的方法！有兴趣的进http://www.wikilib.com/wiki/%E9%A6%96%E9%A1%B5网址里查看
