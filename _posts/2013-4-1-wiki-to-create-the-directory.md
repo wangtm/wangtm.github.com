@@ -21,11 +21,8 @@ wiki创建目录
 {{>toc}} => toc右对齐
 
 h1. 内容列表演示 
-
 <pre>{{toc}}演示例子</pre>  
- 
-{{>toc}} 
-   
+{{>toc}}   
 h2. 第一章 
 h3. 第1节
 h3. 第2节
@@ -40,14 +37,13 @@ h2. 第三章
 h3. 第1节  
 h3. 第2节
   
-第二种：可以创建类似面包屑的导航
-		
+第二种：可以创建类似面包屑的导航		
 {{Catnav|XXXXX|XXXCCC|DDDD}}
 {{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}
-			  
-        
+			          
 		
 第一种方法要想做成浮动的目录需要导入下面GeaseMonkey.js脚本，下面是js脚本：
+
 // ==UserScript== // @name            
 MediaWiki TOC Floatable
  // @description    key "m" and "Ctrl+Left mouse" to show ,“ESC” to Hide 
