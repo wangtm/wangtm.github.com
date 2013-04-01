@@ -21,8 +21,11 @@ wiki创建目录
 {{>toc}} => toc右对齐
 
 h1. 内容列表演示 
-<pre>{{toc}}演示例子</pre>  
-{{>toc}}   
+
+<pre>{{toc}}演示例子</pre>
+
+{{>toc}}
+
 h2. 第一章 
 h3. 第1节
 h3. 第2节
@@ -37,8 +40,10 @@ h2. 第三章
 h3. 第1节  
 h3. 第2节
   
-第二种：可以创建类似面包屑的导航		
+第二种：可以创建类似面包屑的导航
+	
 {{Catnav|XXXXX|XXXCCC|DDDD}}
+
 {{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}
 			          
 		
