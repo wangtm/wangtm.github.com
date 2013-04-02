@@ -6,7 +6,7 @@ category : 技术
 
 tags : [wiki   浮动目录 ]
 
-title : wiki创建目录
+title : wiki创建目录和导航
 
 ---
 
@@ -16,13 +16,13 @@ wiki创建目录
 这里分享几种建立目录的方法
 第一种：可以创建左右列表
 		
-	<pre>{{toc}} => toc左对齐</pre>
-	<pre>{{>toc}} => toc右对齐</pre>
+	<pre>【{{toc}} 】=> toc左对齐</pre>
+	<pre>【{{>toc}}】=> toc右对齐</pre>
 
 h1. 内容列表演示 
 
 	<pre>{{toc}}演示例子</pre>
-	<pre>{{>toc}}</pre>
+	<pre>【{{>toc}}】</pre>
 h2. 第一章 
 h3. 第1节
 h3. 第2节
@@ -39,8 +39,8 @@ h3. 第2节
   
 第二种：可以创建类似面包屑的导航
 	
-	<pre>{{Catnav|XXXXX|XXXCCC|DDDD}}</pre>
-	<pre>{{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}</pre>
+	<pre>【{{Catnav|XXXXX|XXXCCC|DDDD}}】</pre>
+	<pre>【{{Catnav|EEE|EEEESSSE|ESSSEE|ESSSE}}】</pre>
 			          
 		
 第一种方法要想做成浮动的目录需要导入下面GeaseMonkey.js脚本，下面是js脚本：
