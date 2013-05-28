@@ -2,7 +2,7 @@
 
 layout : post
 
-category : 卓有成效的管理者--读后笔记
+category : 卓有成效的管理者
 
 tags : [项目管理  ]
 
