@@ -2,15 +2,15 @@
 
 layout : post
 
-category : 判断客户端的浏览器类型
+category : 判断浏览器类型
 
 tags : [php  ]
 
-title : 判断客户端的浏览器类型
+title : 判断浏览器类型
 
 ---
 
-  PHP判断客户端的浏览器类型
+  PHP判断浏览器类型
     /**
     	  * 判断浏览器名称和版本
 	  */
