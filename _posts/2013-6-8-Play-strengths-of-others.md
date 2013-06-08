@@ -6,7 +6,7 @@ category : manage
 
 tags : [管理， 成效 ]
 
-title : 发挥别人长处
+title : 发挥别人长处--笔记
 
 ---
 
