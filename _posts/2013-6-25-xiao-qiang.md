@@ -6,7 +6,7 @@ category : manage
 
 tags : [卓有成效， 管理 ]
 
-title : 小强升职记笔记连载之一
+title : 小强升职记笔记
     
 
 ---
