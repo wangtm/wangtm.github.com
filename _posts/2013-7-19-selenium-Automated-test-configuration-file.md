@@ -1,3 +1,15 @@
+---
+
+layout : post
+
+category : manage
+
+tags : [selenium，自动化，自动化测试配置文件 ]
+
+title : selenium自动化测试配置文件
+
+---
+
 首先建一个名称为“config.properties”的文件
 
 然后在文件里配置录制一个脚本经常要用到的设置。比如：登录名和密码之类的
