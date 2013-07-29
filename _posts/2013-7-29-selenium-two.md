@@ -56,4 +56,4 @@ Selenium相关介质下载：
 
 java -jar selenium-server-standalone-2[1].12.0.jar
 
-![](http://pic.yupoo.com/charisma999_v/D2U1WFpC/Z14Y1.jpg "安装selenium服务器后重启")
+![](http://pic.yupoo.com/charisma999_v/D2UiWe4R/kxECX.jpg "安装selenium服务器后重启")
