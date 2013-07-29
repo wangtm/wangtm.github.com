@@ -6,7 +6,7 @@ category : manage
 
 tags : [selenium]
 
-title : selenium操作手册之一
+title : selenium操作手册连载一
 
 ---
 
