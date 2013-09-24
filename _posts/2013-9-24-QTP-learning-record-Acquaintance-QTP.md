@@ -58,8 +58,11 @@ QTP 界面包含标题栏、菜单栏、文件工具条等几个界面元素，�
 文件工具条，在工具条上包含了以下几个按钮：
 调试工具条
 测试工具条，包含了在创建、管理测试脚本是要使用的按钮
+
 ![](http://pic.yupoo.com/charisma999_v/Dbzp8bv1/bNLfV.png "QTP测试条")
+
 调试工具条，包含在调试测试脚本时要使用的工具条
+
 ![](http://pic.yupoo.com/charisma999_v/Dbzp7PST/N9DRC.png "QTP测试条1")
 
 测试脚本管理窗口，提供了两个可切换的窗口，分别通过图形化方式和 VBScript脚本方式来管理测试脚本
