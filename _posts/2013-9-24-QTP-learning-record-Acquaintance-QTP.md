@@ -49,7 +49,7 @@ title : QTP学习记录--初识QTP
         ![]( http://charisma.u.qiniudn.com/20130924103207-QTP%E4%B8%BB%E7%95%8C%E9%9D%A2.png"QTP主界面")
        
         QTP 界面包含标题栏、菜单栏、文件工具条等几个界面元素，下面简单解释各界面 元素的功能
-        ![]( http://charisma.u.qiniudn.com/20130924103207-QTP%E6%A0%87%E9%A2%98%E6%A0%8F.png"QTP标题栏")
+        http://charisma.u.qiniudn.com/20130924103207-QTP%E6%A0%87%E9%A2%98%E6%A0%8F.png
 
             标题栏，显示了当前打开的测试脚本的名称
             菜单栏，包含了 QuickTest 的所有菜单命令项。
