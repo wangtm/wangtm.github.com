@@ -47,7 +47,7 @@ title : QTP学习记录--初识QTP
     认识QTP操作界面
         解一下 QuickT est 的主界面。下图是录制了一个操作后 QuickT est 的界面。
 
-        ![](http://charisma.u.qiniudn.com/20130924103207-QTP%E4%B8%BB%E7%95%8C%E9%9D%A2.png "QTP主界面")
+        ![QTP主界面](http://charisma.u.qiniudn.com/20130924103207-QTP%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
        
         QTP 界面包含标题栏、菜单栏、文件工具条等几个界面元素，下面简单解释各界面 元素的功能
         
