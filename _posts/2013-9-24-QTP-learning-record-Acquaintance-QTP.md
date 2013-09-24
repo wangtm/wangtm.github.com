@@ -47,20 +47,20 @@ title : QTP学习记录--初识QTP
     认识QTP操作界面
         解一下 QuickT est 的主界面。下图是录制了一个操作后 QuickT est 的界面。
 
-        ![QTP主界面](http://charisma.u.qiniudn.com/20130924103207-QTP%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
+        ![](http://pic.yupoo.com/charisma999_v/Dbzp8Hpx/CE4Xz.png "QTP主界面")
        
         QTP 界面包含标题栏、菜单栏、文件工具条等几个界面元素，下面简单解释各界面 元素的功能
         
-        ![QTP标题栏](http://charisma.u.qiniudn.com/20130924103207-QTP%E6%A0%87%E9%A2%98%E6%A0%8F.png)
+        ![](http://pic.yupoo.com/charisma999_v/Dbzp8bv1/bNLfV.png "QTP标题栏")
 
             标题栏，显示了当前打开的测试脚本的名称
             菜单栏，包含了 QuickTest 的所有菜单命令项。
             文件工具条，在工具条上包含了以下几个按钮：
         调试工具条
             测试工具条，包含了在创建、管理测试脚本是要使用的按钮
-            ![QTP测试条](http://charisma.u.qiniudn.com/20130924103207-QTP%E6%B5%8B%E8%AF%95%E6%9D%A1.png)
+            ![](http://pic.yupoo.com/charisma999_v/Dbzp8bv1/bNLfV.png "QTP测试条")
             调试工具条，包含在调试测试脚本时要使用的工具条
-            ![](http://charisma.u.qiniudn.com/20130924103207-QTP%E6%B5%8B%E8%AF%95%E6%9D%A11.png QTP测试条1)
+            ![](http://pic.yupoo.com/charisma999_v/Dbzp7PST/N9DRC.png "QTP测试条1")
             
         测试脚本管理窗口，提供了两个可切换的窗口，分别通过图形化方式和 VBScript脚本方式来管理测试脚本
         Data Table 窗口，用于参数化你的测试
