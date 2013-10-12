@@ -2,7 +2,7 @@
 
 layout : post
 
-category : manage
+category : QTP
 
 tags : [自动化测试，QTP]
 
