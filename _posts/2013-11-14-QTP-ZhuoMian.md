@@ -24,7 +24,7 @@ print aa
         Window("Window_2").Click 162,33
         wait(3)
         
-        Window("test(群号:29855207)").Close
+        Window("test(QQ:123456789)").Close
         Exit for
         End If
         
