@@ -6,7 +6,7 @@ category : QTP
 
 tags : [自动化测试，QTP]
 
-title : 【转】QTP_QTP资源
+title : QTP输出值
 
 ---
 
