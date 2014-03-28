@@ -26,8 +26,8 @@ public class 登录GMAIL extends SeleneseTestCase{
 
 		//输入账号和密码，点击“登录”按钮，中间需要一个等待时间，设定3s；
 		assertTrue(selenium.getTitle().matches("^Gmail[\\s\\S]*$"));
-		selenium.type("E-mail","wangtangming888@gmail.com");
-		selenium.type("passwd","wyh_111219");
+		selenium.type("E-mail","xxxxxxxxxx@gmail.com");
+		selenium.type("passwd","xxxxxxxxx");
 		selenium.click("signIn");
 		selenium.waitForPageToLoad("3000");
 
